@@ -1,2 +1,2 @@
-# RepositoryHTMLCSS
-HTML & CSS
+# RepositoryWeb
+HTML & CSS and JavaScript
