@@ -16,7 +16,7 @@ a {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1366px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -102,7 +102,6 @@ header {
 }
 
 .header-left h2 {
-    display: block;
     line-height: 30px;
     color: maroon;
     float: right;
@@ -114,7 +113,8 @@ header {
 
 .header-right {
     float: right;
-    margin-right: -25px;
+    margin-right: -35px;
+    background-color: rgba(22, 4, 4, 0.3);
 }
 
 .header-right a {
@@ -141,7 +141,7 @@ header {
 }
 
 
-.lesson-wrapper {
+.work-wrapper {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -159,26 +159,32 @@ header {
     font-weight: normal;
 }
 
-.lesson {
+.work {
     float: left;
     width: 50%;
+    margin-bottom: 30px;
 }
 
-.lesson-icon {
-    position: relative;
+.bni {
+    width: 75px;
 }
 
-.lesson-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
+.mii {
+    width: 100px;
+}
+
+.pandawa {
+    width: 160px;
+}
+
+.pertamina {
+    width: 110px;
 }
 
 .text-contents {
     width: 80%;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 15px;
     color: #b3aeb5;
 }
@@ -187,23 +193,74 @@ header {
     font-weight: normal;
 }
 
-.message-wrapper {
+.skills-wrapper {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
 }
 
-.message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
+.skill {
+    float: left;
+    width: 25%;
+    margin-bottom: 30px;
 }
 
-.message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
+.java {
+    width: 90px;
+    border-radius: 30px;
+}
+
+.htmlCss {
+    width: 170px;
+}
+
+.javaScript {
+    width: 150px;
+}
+
+.sql {
+    width: 120px;
+}
+
+.skill-license {
+    float: left;
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.ibm {
+    width: 160px;
+}
+
+.axway {
+    width: 70px;
+}
+
+.soa {
+    width: 140px;
+    border-radius: 20px;
+}
+
+.docker {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+ .heading-message {
+     float: flex;
+     width: 100%;
+     padding-bottom: 20px;
+     margin-bottom: 30px;
+ }
+
+.heading h3 {
+    font-size: normal;
 }
 
 footer img {
