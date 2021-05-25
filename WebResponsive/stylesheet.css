@@ -252,12 +252,13 @@ header {
     padding-bottom: 80px;
     text-align: center;
 }
- .heading-message {
-     float: flex;
-     width: 100%;
-     padding-bottom: 20px;
-     margin-bottom: 30px;
- }
+
+.heading-message {
+    float: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
 
 .heading h3 {
     font-size: normal;
